@@ -16,18 +16,27 @@ LESGEN contains also a variable team that do the shadow business. They are:
 - _OPTIONAL_: You can simply click on the output image and copy (Ctrl+C) and paste (Ctrl+V) to an external text editor, if you're planning to teach or study math. Alternatively, you can also right-click on the image and "Save image as..." to anywhere you want. You can even print it just below this command.
 
 ### LIMITATIONS
-- Isn't really a limitation, but sometimes, LESGEN[] can generate LES with no solutions or infinite solutions. In this case, _eqSol_ just returns a null list ({}].
+- Isn't really a limitation, but sometimes, LESGEN[] can generate LES with no single solution. In this case, _eqSol_ just returns a null list ({}].
+- When all variable coefficients are 0, _eqGen_ returns _False_ (no variables!).
 
 ### LESGEN[] IMAGE PREVIEWS
-- 4x4 LES Matrix. Note that there's a no solution LES on the third row and thrid column.
+
+
+- 4x4 LES Matrix. Note that the first row of LES at matrix position _i,j = 3,3_ returns _False_. This is because variable coefficients are all zero, and it checks if zero equals the right side. If right side is also zero, it will return _True_, but it won't never return a numeric value in none of both cases. 
 <img width="1784" height="250" alt="image" src="https://github.com/user-attachments/assets/97d46c0a-37e8-470b-8ab3-f535d92fcf76" />
 
-- 3x3 LES Matrix.
-<img width="1784" height="260" alt="image" src="https://github.com/user-attachments/assets/7a2d921f-06cc-4219-8f1f-925c6bfaba04" />
+
+
+
+- 3x3 LES Matrix. Note that the LES at matrix position _i,j = 3,1_ doesn't have a single solution.
+<img width="1784" height="253" alt="image" src="https://github.com/user-attachments/assets/4f2b1bc5-a5a9-4396-b20b-56b371b2032d" />
+
+
+
 
 -2x2 LES Matrix
 <img width="1784" height="292" alt="image" src="https://github.com/user-attachments/assets/994c8922-4a95-4595-8b9c-f847acb4a6ea" />
 
-It's also stylized with vivid colours to make linear algebra less boring (just kidding, LA isn't boring).
+_Exercises are also stylized with vivid colours to make linear algebra less boring (just kidding, LA isn't boring)._
 
-Happy math! :)
+_Happy math! :)_
