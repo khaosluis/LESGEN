@@ -13,7 +13,7 @@ LESGEN contains also a variable team that do the shadow business. They are:
 - Open LESGEN.nb on Wolfram Mathematica.
 - Write LESGEN[] anywhere and click Shift+Enter.
 - Wonder your 2x2, 3x3 or 4x4 solved exercises. Note that only the solution set is given for each LES, _not the step-by-step solving process_. You'll have to work hard your Gauss and Cramer methods and check your math! >:)
-- _OPTIONAL_: You can simply click on the output image and copy (Ctrl+C) and paste (Ctrl+V) to an external text editor, if you're planning to teach or study math. Alternatively, you can also right-click on the image and "Save image as..." to anywhere you want. You can even print it just below this command.
+- _OPTIONAL_: You can just click on the output image and copy (Ctrl+C) and paste (Ctrl+V) to an external text editor, if you're planning to teach or study math. Alternatively, you can also right-click on the image and "Save image as..." to anywhere you want. You can even print it just below this command.
 
 ### LIMITATIONS
 - Isn't really a limitation, but sometimes, LESGEN[] can generate LES with no single solution. In this case, _eqSol_ just returns a null set ({}).
