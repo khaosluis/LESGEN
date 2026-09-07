@@ -17,7 +17,7 @@ LESGEN contains also a variable team that do the shadow business. They are:
 
 ### LIMITATIONS
 - Isn't really a limitation, but sometimes, LESGEN[] can generate LES with no single solution. In this case, _eqSol_ just returns a null set ({}).
-- When all variable coefficients on a LES row are 0, _eqGen_ returns _False_ for that row (no variables!). They can also return _True_ if and only if the right side of the equation is zero.
+- When all variable coefficients on a LES row are 0, _eqGen_ returns _False_ for that row (no variables!). They can also return _True_ if and only if the right side of the equation is zero. It's basically a logic check _(0 equals 3? 0 equals 0?)_.
 
 ### LESGEN[] IMAGE PREVIEWS
 
