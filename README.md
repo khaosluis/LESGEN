@@ -5,7 +5,7 @@ LESGEN contains also a variable team that do the shadow business. They are:
 - _eqGen_: generates a single 3S-3I (Three solutions and three variables) LES with its respective integer coefficients interval: From -5 to +5 for variable coefficients, and from -10 to +10 for constant terms.
 - _eqSol_: solves for each variable and gives its values, giving the LES solution set.
 - _nEjercicios_: computes a random integer number between 2 and 4 (three possible output values).
-- homeworkLinearGen: creates a _nEjercicios_ x _nEjercicios_ square matrix, where each matrix value is, fundamentally,a 3S-3I LES with its respective solution set.
+- homeworkLinearGen: creates a _nEjercicios_ x _nEjercicios_ square matrix, where each matrix value is, fundamentally, a 3S-3I LES with its respective solution set.
 - All these prior variables are stored on the LESGEN[] variable, which execution generates a _nEjercicios_ x _nEjercicios_ solved LES exercises, and then rasterizes the output to a hi-res image that can be easily exported to any external text editor. The generated output changes on every execution, getting 2x2=4, 33=9 or 4x4=16 solved LES, chosen randomly.
 
 ## HOW TO USE
