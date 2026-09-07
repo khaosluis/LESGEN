@@ -16,7 +16,7 @@ LESGEN contains also a variable team that do the shadow business. They are:
 - _OPTIONAL_: You can just click on the output image and copy (Ctrl+C) and paste (Ctrl+V) to an external text editor, if you're planning to teach or study math or if you're just bored. Alternatively, you can also right-click on the image and "Save image as..." to anywhere you want. You can even print it just below that command.
 
 ### LIMITATIONS
-- Isn't really a limitation, but sometimes, LESGEN[] can generate LES with no single solution. In this case, _eqSol_ just returns a null set ({}).
+- Isn't really a limitation, but sometimes, LESGEN[] can generate LES with no single solution. In this case, _eqSol_ just returns a null solution set ({}).
 - When all variable coefficients on a LES row are 0, _eqGen_ returns _False_ for that row (no variables!) if and only if the right side of the equation is different from zero. They can also return _True_ if and only if the right side of the equation is zero. It's basically a logic check _(0 equals 3? NOPE! 0 equals 0? YEAH! of course!)_.
 
 ### LESGEN[] IMAGE PREVIEWS
