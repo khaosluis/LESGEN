@@ -18,4 +18,16 @@ LESGEN contains also a variable team that do the shadow business. They are:
 ### LIMITATIONS
 - Isn't really a limitation, but sometimes, LESGEN[] can generate LES with no solutions or infinite solutions. In this case, _eqSol_ just returns a null list ({}].
 
+### LESGEN[] IMAGE PREVIEWS
+- 4x4 LES Matrix. Note that there's a no solution LES on the third row and thrid column.
+<img width="1784" height="250" alt="image" src="https://github.com/user-attachments/assets/97d46c0a-37e8-470b-8ab3-f535d92fcf76" />
+
+- 3x3 LES Matrix.
+<img width="1784" height="260" alt="image" src="https://github.com/user-attachments/assets/7a2d921f-06cc-4219-8f1f-925c6bfaba04" />
+
+-2x2 LES Matrix
+<img width="1784" height="292" alt="image" src="https://github.com/user-attachments/assets/994c8922-4a95-4595-8b9c-f847acb4a6ea" />
+
+It's also stylized with vivid colours to make linear algebra less boring (just kidding, LA isn't boring).
+
 Happy math! :)
