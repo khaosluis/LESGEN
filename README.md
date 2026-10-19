@@ -1,6 +1,6 @@
 # WHAT'S LESGEN?
 LESGEN is a linear equation system (LES) batch generator that creates a square matrix of solved LES with three different square matrix outputs chosen randomly on each LESGEN execution. The output is also rasterized for easy image exporting to an external text editor.
-LESGEN contains also a variable team that do the shadow business. They are:
+LESGEN contains also a variable set that do the shadow business. They are:
 
 - _eqGen_: generates a single 3S-3I (Three solutions and three variables) LES with its respective integer coefficients interval: From -5 to +5 for variable coefficients, and from -10 to +10 for constant terms.
 - _eqSol_: solves for each variable and gives its values, giving the LES solution set.
